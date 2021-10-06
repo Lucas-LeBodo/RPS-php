@@ -8,6 +8,7 @@
     if(in_array($args, $params)){
         if($args === "help" || $args === "h"){
             echo "----- Help -----\n\nValid arguments :\n-> help / h\n-> rock\n-> paper\n-> scissor\n----------------\n";
+            return;
         }
         
         $bot = rand(1, 3);
